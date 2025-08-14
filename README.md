@@ -162,19 +162,14 @@ pip install -r requirements.txt
 
 ## 六、鼓励一下
 
-开源不易，若此项目有帮到你，望你能动用你的发财小手**Star**☆一下。
+开源不易，若此项目有帮到你，望你能动用你的小手**Star**☆一下。
 
 如有遇到代码方面的问题，欢迎一起讨论，你的鼓励是这个项目继续更新的最大动力！
-
-<p align = "center">    
-<img  src="https://github.com/yeximm/Access_wechat_article/blob/master/README/qrcode_1749894334903.jpg" width="300" />
-</p>
 
 
 另外，十分感谢大家对于本项目的关注。
 
-[![Stargazers repo roster for @yeximm/Access_wechat_article](https://reporoster.com/stars/yeximm/Access_wechat_article)](https://github.com/yeximm/Access_wechat_article/stargazers)
-[![Forkers repo roster for @yeximm/Access_wechat_article](https://reporoster.com/forks/yeximm/Access_wechat_article)](https://github.com/yeximm/Access_wechat_article/network/members)
+
 
 ## LICENSE
 
