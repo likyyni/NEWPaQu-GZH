@@ -390,7 +390,8 @@ class ArticleDetail(AccessPosts):
                 'length': len(passage_list)
             }
         elif '"home_page_list":[]' in res.text:
-            print('\n出现：操作频繁，请稍后再试\n该号已被封禁，请解封后再来！！！\n')
+            print('\n出现：操作频繁，请稍后再试 ！ ！ ！ ！ ！ ！ ！ ！ ！ ！ ！ ！ ！ \n'
+                  '&&&&&&&&&&&&&&&&&&该号已被封禁，请解封后再来&&&&&&&&&&&&&&&&&&\n')
             return {'m_flag': 0}
         else:
             print('请求结束！未获取到第 ' + str(page + 1) + ' 页文章列表')
