@@ -33,6 +33,7 @@ class AccessPosts:
         1.根据URL访问原页面获取网页文本数据
         2.按保存规则进行存储（单个、批量）
         3.检测人机验证，并去除验证
+        提供了基本的文章获取和保存功能。
     """
 
     def __init__(self):
@@ -191,6 +192,10 @@ class AccessPosts:
 
 
 class ArticleDetail(AccessPosts):
+    """
+    ArticleDetail 类 - 扩展功能类（继承自 AccessPosts）
+    提供了更高级的文章详情获取功能。
+    """
     def __init__(self):
         super().__init__()
         self.biz = None
@@ -203,6 +208,7 @@ class ArticleDetail(AccessPosts):
         """
             输入：公众号下任意一篇已发布的文章 短链接！！
             功能：通过公众号内的文章获取到公众号的biz值，拼接出公众号主页链接
+            获取文章链接信息的核心逻辑 - 为这个get_article_link 方法
         """
         content = super().get_one_article(url, False, False)  # 获取网页文本内容
         if content['content_flag'] == 1:
