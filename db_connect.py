@@ -5,9 +5,9 @@ class MySQLHelper:
     def __init__(self):              #初始化
         self.conn = pymysql.connect(
             host='localhost',
-            user='root',
-            password='zxcvbnm,.',
-            database='crawl_data',
+            user='*****',
+            password='*****',
+            database='*****',
             charset='utf8mb4'
         )
         self.cursor = self.conn.cursor()
