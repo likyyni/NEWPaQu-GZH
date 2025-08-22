@@ -4,11 +4,11 @@ import pymysql
 class MySQLHelper:
     def __init__(self):              #初始化
         self.conn = pymysql.connect(
-            host='localhost',
-            user='root',
-            password='zxcvbnm,.',
-            database='crawl_data',
-            charset='utf8mb4'
+            host='localhost',#填写完为自己的,一般为localhost
+            user='***',
+            password='***',#输入自己数据库的密码
+            database='***',#填写完为自己的数据库
+            charset='utf8mb4'#编码格式
         )
         self.cursor = self.conn.cursor()
 
