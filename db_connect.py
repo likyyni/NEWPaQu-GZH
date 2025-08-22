@@ -5,7 +5,7 @@ class MySQLHelper:
     def __init__(self):              #初始化
         self.conn = pymysql.connect(
             host='localhost',
-            user='*****',
+            user='*****',        #数据库这里修改为自己的数据库
             password='*****',
             database='*****',
             charset='utf8mb4'
